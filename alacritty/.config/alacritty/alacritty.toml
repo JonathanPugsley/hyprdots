@@ -53,22 +53,22 @@ background = "#b4befe"
 [colors.normal]
 black = "#585b70"
 red = "#f38ba8"
-green = "#a6e3a1"
+green = "#f5c2e7"
 yellow = "#f9e2af"
-blue = "#89dceb"
-magenta = "#f5c2e7"
-cyan = "#94e2d5"
+blue = "#b4befe"
+magenta = "#cba6f7"
+cyan = "#b4befe"
 white = "#bac2de"
 
 [colors.bright]
 black = "#585b70"
 red = "#f38ba8"
-green = "#a6e3a1"
-yellow = "#f9e2af"
-blue = "#89dceb"
-magenta = "#f5c2e7"
-cyan = "#94e2d5"
-white = "#a6adc8"
+green = "#f9e2af"
+yellow = "#d4a6fe"
+blue = "#b4befe"
+magenta = "#cba6f7"
+cyan = "#b4befe"
+white = "#bac2de"
 
 # [[colors.indexed_colors]]
 # index = 16
