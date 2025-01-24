@@ -1,0 +1,79 @@
+/* COLOURS */
+@define-color base #1e1e2e;
+@define-color base_light #313244;
+@define-color bar_text #cdd6f4;
+@define-color urgent #f38ba8;
+
+/* Styling */
+* {
+  transition: none;
+  box-shadow: none;
+}
+
+/* Waybar */ 
+#waybar {
+	font-family: 'Source Code Pro', sans-serif;
+	font-size: 1.2em;
+	font-weight: 400;
+  color: @bar_text;
+  background: @base;
+}
+
+/* Workspaces */
+#workspaces {
+  margin: 0 4px;
+}
+
+#workspaces button {
+  margin: 4px 0;
+  padding: 0 4px;
+  color: @bar_text;
+}
+
+#workspaces button.active {
+  border-radius: 4px;
+  background-color: @base_light;
+}
+
+#workspaces button.urgent {
+  color: @urgent;
+}
+
+/* Tray */
+#tray {
+  margin: 4px 4px 4px 4px;
+  border-radius: 4px;
+  background-color: @base_light;
+}
+
+#tray * {
+  padding: 0 6px;
+  border-left: 1px;
+}
+
+#tray *:first-child {
+  border-left: none;
+}
+
+/* Cluster */
+#battery, #cpu, #memory, #backlight, #wireplumber, #clock {
+  margin: 4px 2px;
+  padding: 0 6px;
+  background-color: @base_light;
+  border-radius: 4px;
+  min-width: 20px;
+}
+
+/* Clock */
+#clock {
+  margin-left: 0px;
+  margin-right: 4px;
+  background-color: transparent;
+}
+
+/* Window */
+#window {
+  font-size: 0.9em;
+	font-weight: 400;
+	font-family: sans-serif;
+}

@@ -1,0 +1,90 @@
+/* COLOURS */
+@define-color	lavender  #b4befe;
+@define-color	text  #cdd6f4;
+@define-color	base  #1e1e2e;
+
+/* Font */
+* {
+  font-family: 'CaskaydiaCove Nerd Font', monospace;
+  font-size: 18px;
+}
+
+/* Window */
+window {
+  margin: 0px;
+  padding: 10px;
+  border: 2px solid @lavender;
+  border-radius: 8px;
+  background-color: @base;
+}
+
+/* Inner Box */
+#inner-box {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: @base;
+}
+
+/* Outer Box */
+#outer-box {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: @base;
+}
+
+/* Scroll */
+#scroll {
+  margin: 0px;
+  padding: 10px;
+  border: none;
+  background-color: @base;
+}
+
+/* Input */
+#input {
+  margin: 5px 20px;
+  padding: 10px;
+  border: 2px solid @base;
+  border-radius: 0.1em;
+  color: @text;
+  background-color: @base;
+}
+
+#input image {
+    border: none;
+}
+
+#input * {
+  outline: none;
+  color: @lavender;
+}
+
+/* Text */
+#text {
+  margin: 5px;
+  color: @text;
+}
+
+#entry {
+  background-color: @base;
+}
+
+#entry arrow {
+  border: none;
+  color: @lavender;
+}
+
+/* Selected Entry */
+#entry:selected {
+  border: 0.11em solid @lavender;
+}
+
+#entry:selected #text {
+  color: @lavender;
+}
+
+#entry:drop(active) {
+  background-color: @lavender;
+}
