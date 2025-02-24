@@ -17,9 +17,6 @@ plugins=(git archlinux zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-
+# Alias
 # For a full list of active aliases, run `alias`.
-#
-# Example alias
-# alias ohmyzsh="cd ~/zsh/.oh-my-zsh"
+alias bt="systemctl start bluetooth.service"
